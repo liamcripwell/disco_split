@@ -1,4 +1,4 @@
-from discourse_simp.evaluation.utils import is_accurate
+from disco_split.evaluation.utils import is_accurate
 
 
 def test_is_accurate():
