@@ -1,5 +1,5 @@
-from discourse_simp.processing.connectives import PATTERNS
-from discourse_simp.processing.utils import strip_adverbial
+from disco_split.processing.connectives import PATTERNS
+from disco_split.processing.utils import strip_adverbial
 
 
 def test_transform_literal():

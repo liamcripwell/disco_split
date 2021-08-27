@@ -1,6 +1,6 @@
 import re
 
-from discourse_simp.processing.connectives import *
+from disco_split.processing.connectives import *
 
 connectives = [conn for rel in PATTERNS.values() 
                     for sense in rel.values() for conn in sense]
