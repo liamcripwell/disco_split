@@ -9,9 +9,12 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+## Download Dataset
+Datasets described in the paper are available to download from `data/dsplit_data.zip`. This contains all of `D_CCNews_C`, `D_CCNews_S`, `D_MUSS`, and `D_WikiSplit`.
+
 ## Building a Synthetic Dataset
 
-You should use [this repo](https://github.com/liamcripwell/news-please) to mine sentences with discourse connectives or sentence pairs with an adverbial from the [Common Crawl News Corpus](https://commoncrawl.org/2016/10/news-dataset-available/). Once you have some mined data, you can use tools in this package to compile samples for training/testing models. 
+Alternatively, you can build your own version of the data. You should use [this repo](https://github.com/liamcripwell/news-please) to mine sentences with discourse connectives or sentence pairs with an adverbial from the [Common Crawl News Corpus](https://commoncrawl.org/2016/10/news-dataset-available/). Once you have some mined data, you can use tools in this package to compile samples for training/testing models. 
 
 To build a dataset:
 
