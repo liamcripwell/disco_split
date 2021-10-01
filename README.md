@@ -43,7 +43,7 @@ In order to generate synthetic complex sentences from simple sentence pairs usin
 python disco_split/processing/build_dataset.py s2c <input_file> <output_file>
 ```
 
-If you would like to specifically reformat intermediate parser ouput into input sequences, you may use the following:
+If you would like to specifically reformat intermediate parser ouput into `T` sequences, you may use the following:
 
 ```bash
 # NOTE: see the actual script for optional args
@@ -52,7 +52,7 @@ python disco_split/processing/build_dataset.py a2t <new_oracles_csv> <output_fil
 
 ## Training a Model
 
-Code for training models is located in `disco_split/models`.
+Code for training models is located in `disco_split/models/`.
 
 To finetune a baseline BART model:
 
