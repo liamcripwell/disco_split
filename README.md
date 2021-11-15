@@ -1,6 +1,6 @@
 # Discourse-Based Sentence Splitting
 
-Code for running discourse-based sentence splitting experiments.
+This repository contains the code and resources from the following [paper](https://aclanthology.org/2021.findings-emnlp.25/).
 
 ## Install
 
