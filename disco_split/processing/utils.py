@@ -11,10 +11,12 @@ def strip_adverbial(adverbial, sentence):
     return re.sub(adverbial, "", sentence,
         flags=re.IGNORECASE).lstrip(punctuation).strip()
 
-def find_adverbial(sentence, full_output=False):
+def find_adverbial(sentence, full_output=False, loose=False):
     for rel, senses in PATTERNS.items():
         for sense, conns in senses.items():
             for conn, pattern in conns.items():
+                if loose:
+                    pattern = pattern[1:]
                 if re.search(pattern, sentence.lower()) is not None:
                     if full_output:
                         return conn, sense, rel

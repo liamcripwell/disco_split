@@ -192,7 +192,7 @@ PATTERNS = {
             "consequently": "^consequently",
             "therefore": "^therefore",
             "thus": "^thus",
-            # NOTE: "in turn" could realistically be added here but could increase complexity
+            "in turn": "^in turn",
         }
     },
     "comparison": {
@@ -203,7 +203,7 @@ PATTERNS = {
             "conversely": "^conversely",
             "nevertheless": "^nevertheless",
             "on the other hand": "^on the other hand",
-            # TODO: maybe add "however"?
+            "however": "^however",
         }
     },
     "expansion": {
