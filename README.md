@@ -90,3 +90,24 @@ python disco_split/evaluation/pipeline.py evaluate <t2s_model> <test_data> <outp
 # using trained neural C2T component
 python disco_split/evaluation/pipeline.py evaluate <t2s_model> <test_data> <output_dir> --parser=bart --bart_model=<c2t_model>
 ```
+
+## Citation
+
+If you find this repository useful, please cite our publication [Discourse-Based Sentence Splitting](https://aclanthology.org/2021.findings-emnlp.25/).
+
+```bibtex
+@inproceedings{cripwell-etal-2021-discourse-based,
+    title = "Discourse-Based Sentence Splitting",
+    author = {Cripwell, Liam  and
+      Legrand, Jo{\"e}l  and
+      Gardent, Claire},
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.25",
+    doi = "10.18653/v1/2021.findings-emnlp.25",
+    pages = "261--273",
+}
+```
